@@ -11,11 +11,6 @@ insert into tb_user values
 (100110,'Anita','Friska','Female','Jl. XYZ, Kota Medan, Sumatera Utara','2000-11-04','2022-07-26')
 ;
 
-select *
-from tb_user ;
-UPDATE tb_user
-SET addres = 'Jl. Pahlawan, Surabaya, Jawa Timur'
-WHERE user_id = 100103;
 
 insert into tb_payment values
 (1201,'Cash',false),
